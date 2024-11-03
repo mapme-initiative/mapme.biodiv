@@ -4,6 +4,8 @@
 
 - `get_biodiversity_intactness_index()`, `get_iucn()`, and `get_key_biodiversity_areas()`
   now use `spds_exists()` to check if input files exist
+- `spds_exist()` and `make_footprints()` now use `normalizePath()` allowing better
+  handling of relative file paths
 
 ## Internal
 
